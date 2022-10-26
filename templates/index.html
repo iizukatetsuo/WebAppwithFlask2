@@ -1,0 +1,134 @@
+{% extends 'base.html' %} {% block body %}
+<div class="container">
+  <a class="btn btn-info btn-lg m-5" href="/create" role="button"
+    >CREATE NEW TASK</a
+  >
+  <a class="btn btn-info btn-lg m-5" href="/function" role="button">Function</a>
+  <a class="btn btn-info btn-lg m-5" href="/graph1" role="button">graph1</a>
+  <a class="btn btn-info btn-lg m-5" href="/graph2" role="button">graph2</a>
+
+  <div class="container container-m">
+    <div class="card-deck">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            This is a longer card with supporting text below as a natural
+            lead-in to additional content. This content is a little bit longer.
+          </p>
+          <p class="card-text">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src=".../100px200/" alt="Card image cap" />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            This card has supporting text below as a natural lead-in to
+            additional content.
+          </p>
+          <p class="card-text">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src=".../100px200/" alt="Card image cap" />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            This is a wider card with supporting text below as a natural lead-in
+            to additional content. This card has even longer content than the
+            first to show that equal height action.
+          </p>
+          <p class="card-text">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 img-hidden">
+        <img src="image/c.jpg" alt="img" class="img-fulied" />
+      </div>
+      <div class="col-md-8">
+        <h1>Sample Text</h1>
+        <p>
+          Sample TextSample TextSample TextSample TextSample TextSample
+          TextSample TextSample TextSample TextSample TextSample TextSample
+          TextSample TextSample TextSample TextSample TextSample TextSample
+          TextSample TextSample TextSample TextSample TextSample TextSample
+          TextSample TextSample TextSample Text
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container container-m">
+    <div class="row">
+      <div class="col-md-4 img-hidden">
+        <img src="image/d.jpg" alt="img" class="img-fulied" />
+      </div>
+      <div class="col-md-4 img-hidden">
+        <img src="image/d.jpg" alt="img" class="img-fulied" />
+      </div>
+      <div class="col-md-4 img-hidden">
+        <img src="image/d.jpg" alt="img" class="img-fulied" />
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <footer
+    class="
+      d-flex
+      flex-wrap
+      justify-content-between
+      align-items-center
+      py-3
+      my-4
+      border-top
+    "
+  >
+    <div class="col-md-4 d-flex align-items-center">
+      <a
+        href="/"
+        class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1"
+      >
+        <svg class="bi" width="30" height="24">
+          <use xlink:href="#bootstrap"></use>
+        </svg>
+      </a>
+      <span class="text-muted">© 2021 Company, Inc</span>
+    </div>
+
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3">
+        <a class="text-muted" href="#"
+          ><svg class="bi" width="24" height="24">
+            <use xlink:href="#twitter"></use></svg
+        ></a>
+      </li>
+      <li class="ms-3">
+        <a class="text-muted" href="#"
+          ><svg class="bi" width="24" height="24">
+            <use xlink:href="#instagram"></use></svg
+        ></a>
+      </li>
+      <li class="ms-3">
+        <a class="text-muted" href="#"
+          ><svg class="bi" width="24" height="24">
+            <use xlink:href="#facebook"></use></svg
+        ></a>
+      </li>
+    </ul>
+  </footer>
+</div>
+
+{% endblock %}
